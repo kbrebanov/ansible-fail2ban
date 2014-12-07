@@ -1,0 +1,6 @@
+---
+# tasks file for fail2ban (Ubuntu specific)
+
+- name: Install fail2ban package
+  apt: name=fail2ban state=present update_cache=yes
+  tags: fail2ban
