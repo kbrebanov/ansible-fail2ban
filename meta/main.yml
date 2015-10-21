@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Kevin Brebanov
-  description: Installs and configures fail2ban.
+  description: Installs fail2ban.
   company:
   # Some suggested licenses:
   # - BSD (default)
@@ -18,12 +18,12 @@ galaxy_info:
   # platform on this list, let us know and we'll get it added!
   #
   platforms:
-  - name: EL
-    versions:
+  #- name: EL
+  #  versions:
   #  - all
   #  - 5
-    - 6
-    - 7
+  #  - 6
+  #  - 7
   #- name: GenericUNIX
   #  versions:
   #  - all
@@ -65,8 +65,8 @@ galaxy_info:
   #  - 9.1
   #  - 9.1
   #  - 9.2
-  #- name: Ubuntu
-  #  versions:
+  - name: Ubuntu
+    versions:
   #  - all
   #  - lucid
   #  - maverick
@@ -76,7 +76,7 @@ galaxy_info:
   #  - quantal
   #  - raring
   #  - saucy
-  #  - trusty
+    - trusty
   #- name: SLES
   #  versions:
   #  - all

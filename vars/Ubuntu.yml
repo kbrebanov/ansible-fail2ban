@@ -1,2 +1,5 @@
 ---
 # vars file for fail2ban (Ubuntu specific)
+
+fail2ban_packages:
+  - fail2ban

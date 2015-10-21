@@ -1,6 +1,2 @@
 ---
 # tasks file for fail2ban (CentOS specific)
-
-- name: Install fail2ban package
-  yum: name=fail2ban state=present
-  tags: fail2ban
