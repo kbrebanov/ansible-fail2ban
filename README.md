@@ -1,6 +1,8 @@
 fail2ban
 =========
 
+[![Ansible Role](https://img.shields.io/ansible/role/5677.svg)](https://galaxy.ansible.com/list#/roles/5677)
+
 Installs fail2ban
 
 Requirements
